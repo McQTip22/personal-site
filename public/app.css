@@ -1,0 +1,24 @@
+body,
+html {
+	background-color: #080f0f;
+	color: #a4bab7;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	height: 100%;
+}
+
+h1 {
+	color: #9cb0f7;
+}
+
+.menu {
+	color: #a4bab7;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 3rem;
+}
+
+a:hover {
+	color: #9cb0f7;
+}
