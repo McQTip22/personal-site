@@ -5,10 +5,15 @@ html {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5rem;
 	height: 100%;
+	scroll-snap-type: y proximity;
 }
 
 h1 {
 	color: #9cb0f7;
+}
+
+#snap {
+	scroll-snap-align: center;
 }
 
 .menu {
