@@ -1,11 +1,32 @@
 body,
 html {
-	background-color: #080f0f;
+	background-color: #292b2b;
 	color: #a4bab7;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5rem;
 	height: 100%;
 	scroll-snap-type: y proximity;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #292b2b;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #a4bab780;
+}
+
+img#snap {
+	box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #9cb0f780;
 }
 
 h1 {
