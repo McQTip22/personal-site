@@ -8,6 +8,14 @@ html {
 	scroll-snap-type: y proximity;
 }
 
+.card {
+	border-color: #a4bab7;
+}
+
+.card-header {
+	border-bottom-color: #a4bab7;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -47,4 +55,9 @@ h1 {
 
 a:hover {
 	color: #9cb0f7;
+}
+
+.card {
+	font-size: 1rem;
+	/* color: #292b2b; */
 }
